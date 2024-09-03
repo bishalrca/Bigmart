@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: SUSE;
+}
+body{
+    background: #dadada;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background:#f46a1e;
+    padding: 10px 20px;
+    color:#fff;
+
+
+}
+.nav-country{
+    display:flex;
+    align-items:end;
+    margin-left: 15px;
+    font-size:13px;
+    color:rgb(239, 230, 230);
+
+
+}
+.nav-country h1{
+    color:#fff;
+    font-size: 14px;
+}
+.nav-search{
+    flex: 1;
+    display:flex;
+    align-items: center;
+    background:#fff;
+    max-width: 1000px;
+    color:gray;
+    border-radius:4px;
+    margin-left:15px;
+
+
+
+}
+.nav-search-gategory{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    background: #333099;
+  /*  #e5e5e5 */
+    border-radius: 4px 0 0 4px;
+   
+
+
+}
+.nav-search-gategory p{
+    color:white;
+
+}
+.nav-search-input{
+    border:none;
+    outline: none;
+    padding-left: 20px;
+    width:100%;
+}
+.nav-search-icon{
+    max-width: 41px;
+    padding: 8px;
+    background: #333099;
+    border-radius: 0 4px 4px 0;
+
+}
+.nav-language{
+    display: flex;
+    align-items: center;
+    gap:2px;
+    font-weight:600;
+    margin-left:15px;
+}
+.nav-text{
+    margin-left: 15px;
+
+}
+.nav-text p{
+    font-size: 10px;
+
+}
+.nav-text h1{
+    font-size:14px;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #333099;
+    color:#fff;
+    font-size:15px;
+
+
+}
+.nav-bottom div{
+    display: flex;
+    align-items:center;
+    gap:5px;
+    font-weight:500;
+
+
+}
+.header-slider {
+   
+    overflow-y: hidden;
+
+}
+.header-slider a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff4f;
+    color:#0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor:pointer;
+
+
+}
+.control_next{
+    right:0;
+    
+}
+body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+   
+}
+
+.navbar {
+    position: fixed; /* Sticks the navbar at the top of the page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust according to your navbar design */
+    z-index: 1000; /* Keeps the navbar above other elements */
+    background-color: #fff; /* Example background color */
+}
+
+.image-container {
+    margin-top: 60px; /* Offset to place the image below the navbar */
+    width: 100%;
+    height: calc(100vh - 60px); /* Full height minus the navbar height */
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block;
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+
+
+
+.header-img-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Adjust the container width as needed */
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-img-text {
+    position: absolute;
+    bottom: 20px; /* Adjust the position of the text */
+    left: 20px; /* Adjust the position of the text */
+    color: #050334; /* Text color */
+    padding: 10px; /* Optional: Adds some padding around the text */
+    font-size: 45px; /* Adjust the text size */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 5px; /* Optional: Adds rounded corners to the background */
+    
+}
+.header-img-text h2{
+    margin-top: -800px;
+
+
+}
+.box-row{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin: 20px 30px;
+
+}
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    background: #fff;
+    max-width: 24%;
+    min-height:200px;
+}
+.box-col img {
+    width: 100%; /* Ensures the image takes the full width of the container */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the entire area, cropping if necessary */
+    border-radius: 5px; /* Optional: Adds rounded corners to the images */
+}
